@@ -20,8 +20,6 @@
         <configuration>
           <goalPrefix>plugin</goalPrefix>
           <outputDirectory>target/dir</outputDirectory>
-        </configuration>
-	      <configuration>
         <archive>
           <manifest>
             <addClasspath>true</addClasspath>
