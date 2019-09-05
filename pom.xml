@@ -21,6 +21,15 @@
           <goalPrefix>plugin</goalPrefix>
           <outputDirectory>target/dir</outputDirectory>
         </configuration>
+	      <configuration>
+        <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>com.selenium.test</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
       </plugin>
     </plugins>
   </build>
